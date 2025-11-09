@@ -20,7 +20,7 @@ async function run() {
     ////insert many ayu samenya 
     const insertManyResult = await students.insertMany([
       { name: 'Ridwaan Abdulkhadir', age: 20, department: 'Medicine' },
-      { name: 'Khalid Abdulkhadir', age: 19, department: 'Business' },
+      { name: 'Khalid Abdulkhadir', age: 19, department: 'Business Management' },
       { name: 'Ramlo Abdulkhadir', age: 18, department: 'Cyber Security' }
     ]);
     console.log('Inserted many count:', insertManyResult.insertedCount);
